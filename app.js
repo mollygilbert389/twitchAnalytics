@@ -1,8 +1,7 @@
 const key = "ruzxqvfrbqh59br4qkpsm46eporuj5"
-const secret = "i2k9i1l7wuzy8kcg79cnhhgyd60kal"
 
 function getTwitchData() {
-    console.log(new Date.now())
+    console.log(Date.now())
     fetch('https://id.twitch.tv/oauth2/validate', {
 	headers: {
         "Authorization": "Bearer " + key,
