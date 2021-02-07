@@ -4,7 +4,7 @@ const secret = "i2k9i1l7wuzy8kcg79cnhhgyd60kal"
 function getTwitchData() {
     fetch('https://id.twitch.tv/oauth2/validate', {
 	headers: {
-        "Authorization": "Bearer " + secret,
+        "Authorization": "Bearer " + key,
         'Content-Type': 'application/json',
         'Accept': 'application/vnd.twitchtv.v5+json'
 	}
